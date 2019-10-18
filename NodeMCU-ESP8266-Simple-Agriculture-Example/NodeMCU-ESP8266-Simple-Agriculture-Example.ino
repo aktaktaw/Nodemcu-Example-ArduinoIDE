@@ -4,10 +4,10 @@
 #include <WiFiClient.h>
 
 //WiFi Setup 
-const char* ssid="aktaktaw@digi";
-const char* pswd="C++isfun";
+const char* ssid="Your_SSID";
+const char* pswd="Your_Password";
 //MQTT Setup
-const char* mqtt_server="192.168.43.6";
+const char* mqtt_server="Your_MQTT_Server";
 #define mqtt_port 1883
 
 //Initial value 
