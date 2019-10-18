@@ -2,12 +2,13 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 
-//WiFi Setup 
-const char* ssid="ungkunor66@unifi";
-const char* pswd="awan9135";
+//WiFi Setup
+const char* ssid="Your_SSID";
+const char* pswd="Your_Password";
 
-const char* mqtt_server="192.168.0.14";
-#define mqtt_port 1883
+//MQTT Server
+const char* mqtt_server="Your_MQTT_Server_IP";
+const int mqtt_port=1883;
 
 const int vSensor=13;
 const int led=5;

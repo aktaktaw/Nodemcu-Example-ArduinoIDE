@@ -4,11 +4,11 @@
 #include <WiFiClient.h>
 
 //WiFi Setup
-const char* ssid="Tertiary";
-const char* pswd="tertiary888";
+const char* ssid="Your_SSID";
+const char* pswd="Your_Password";
 
 //MQTT Server
-const char* mqtt_server="192.168.0.163";
+const char* mqtt_server="Your_MQTT_Server_IP";
 const int mqtt_port=1883;
 
 //Init value
